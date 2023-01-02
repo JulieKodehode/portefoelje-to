@@ -1,7 +1,10 @@
+// Components
+import LandingPage from "./routes/landingpage";
+
 const App = () => {
 	return (
 		<div>
-			<h1>HEIA</h1>
+			<LandingPage />
 		</div>
 	);
 };

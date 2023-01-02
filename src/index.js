@@ -5,7 +5,7 @@ import ReactDOM from "react-dom/client";
 // Tests
 import reportWebVitals from "./tests/reportWebVitals";
 
-// Styling
+// Styles
 import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
