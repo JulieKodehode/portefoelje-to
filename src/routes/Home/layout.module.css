@@ -15,10 +15,9 @@
 }
 
 .sectionLeft img {
-	/* Cuz damn u big son */
-	height: 10em;
-	width: 10em;
-	border-radius: 50%; /*U a circle now*/
+	height: 80%; /*Of it's container*/
+	width: 80%; /*Of it's container*/
+	border-radius: 50%; /*U a circle now son*/
 }
 
 /* Section right - name, description */
