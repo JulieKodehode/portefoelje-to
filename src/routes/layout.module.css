@@ -4,5 +4,5 @@ main {
 	align-items: center;
 
 	/* Border not a permanent thing just for separation for now */
-	border-bottom: 2.5px solid black;
+	/* border-bottom: 2.5px solid black; */
 }
