@@ -15,8 +15,7 @@ const AboutPage = () => {
 					Jeg har også en stor forkjærlighet for The Elder Scrolls spillserien, og har fullført
 					hovedhistorien i Skyrim mer enn en håndfull ganger med like mye entusiasme hver gang. Jeg liker
 					fantasybøker med mytiske kreasjoner, krig og udødelig kjærlighet, og har en dedikert Narnia
-					tatovering. <br /> <br />
-					Jeg liker å lære og vil være med på å lage en forskjell - en programmering om gangen.
+					tatovering.
 				</p>
 			</section>
 
