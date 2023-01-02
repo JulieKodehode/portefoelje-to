@@ -19,6 +19,8 @@ const ProjectPage = () => {
 				<div>
 					<p>Prosjekt C</p>
 				</div>
+
+				{/* Carousel? */}
 				<div>
 					<p>Prosjekt D</p>
 				</div>
