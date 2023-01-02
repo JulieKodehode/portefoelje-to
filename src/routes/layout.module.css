@@ -1,0 +1,8 @@
+main {
+	background-color: aquamarine;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid black;
+	margin: 20px 0;
+}

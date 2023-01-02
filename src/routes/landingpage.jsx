@@ -6,6 +6,7 @@ import "../styles/basic.css";
 import "../styles/colors.css";
 import "../styles/font.css";
 import "../styles/space.css";
+import "./layout.module.css";
 
 // Components
 import AboutPage from "./About/AboutPage";
