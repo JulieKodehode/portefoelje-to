@@ -1,1 +1,19 @@
 /* Font sizes */
+
+/* 
+Convention:
+Typical <p> size: 16px = 1em
+
+Mine:
+h1 130px = 8.125em
+h2 34px = 2.125em
+h3 28px = 1.75em
+p(and everything not h): 21px = 1.3125em
+*/
+
+:root {
+	--fontsize-h1: 8.125em;
+	--fontsize-h2: 2.125em;
+	--fontsize-h3: 1.75em;
+	--fontsize-general: 1.3125em;
+}

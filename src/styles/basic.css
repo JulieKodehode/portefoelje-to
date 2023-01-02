@@ -1,1 +1,23 @@
 /* Basic over all css */
+
+* {
+	box-sizing: border-box;
+	color: var(--primary-color-purple);
+}
+
+html,
+body {
+	margin: 0;
+	background-color: var(--default-bg-color);
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+#root > main {
+	flex-grow: 1;
+	padding: 0.625em;
+}

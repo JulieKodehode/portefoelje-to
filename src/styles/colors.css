@@ -1,0 +1,20 @@
+/* 
+Two themes: 
+BLUE got default black and white and PURPLE got soft black and white
+Edit: change to soft black white on blue?
+Edit: default background soft white and not default
+Edit: change purple soft black(?)
+*/
+
+:root {
+	--default-bg-color: #f3f3f3;
+
+	--primary-bgcolor-blue: #1f2260;
+	--primary-bgcolor-purple: #432b2b;
+
+	--primary-color-blue: #000;
+	--primary-color-purple: #1e1e1e;
+
+	--secondary-color-blue: #fff;
+	--secondary-color-purple: #f3f3f3;
+}
