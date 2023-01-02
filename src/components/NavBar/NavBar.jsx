@@ -2,14 +2,14 @@
 // import { NavLink } from "react-router-dom";
 
 // Styles
-// import styles from "./layout.module.css";
+import styles from "./layout.module.css";
 
 const NavBar = () => {
 	return (
-		<header>
+		<header className={styles.navHeader}>
 			<h1>JH</h1>
 			<nav>
-				<ul>
+				<ul className={styles.navUl}>
 					<li>
 						{/* <NavLink title="Link to HomePage" to="/"> */}
 						Hjem

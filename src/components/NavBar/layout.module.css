@@ -1,0 +1,34 @@
+.navHeader {
+	height: 100px;
+	background-color: var(--primary-bgcolor-blue);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: var(--spacing-medium) var(--spacing-large);
+}
+
+/* Replace with real logo at some point */
+.navHeader h1 {
+	border: 3px solid white;
+	border-radius: 50%;
+	padding: var(--spacing-small);
+	color: var(--secondary-color-blue);
+}
+
+/* Nav items */
+.navUl {
+	list-style-type: none;
+	/* padding: var(--spacing-none); */
+}
+
+.navUl li {
+	color: white;
+	padding: var(--spacing-medium);
+	display: inline-block;
+}
+
+/* Mobile - S(320), M(375px), L(425px)  */
+@media screen and (max-width: 426px) {
+	/* Not yet decided? Hamburger? */
+}
