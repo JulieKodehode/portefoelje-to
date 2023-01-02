@@ -1,0 +1,34 @@
+/* General */
+.homeMain {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	/* justify-content: space-evenly; Don't think you are needed with the 50/50 split*/
+	/* align-items: center; Same with you sis */
+	text-align: center;
+	width: 100%;
+}
+
+/* Section left - portrait */
+.sectionLeft {
+	width: 50%;
+}
+
+.sectionLeft img {
+	/* Cuz damn u big son */
+	height: 10em;
+	width: 10em;
+	border-radius: 50%; /*U a circle now*/
+}
+
+/* Section right - name, description */
+.sectionRight {
+	width: 50%;
+}
+
+/* Mobile - S(320), M(375px), L(425px)  */
+@media screen and (max-width: 426px) {
+	.homeMain {
+		flex-direction: column;
+	}
+}
