@@ -1,0 +1,22 @@
+.aboutMain {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.aboutSection {
+	width: 50%;
+	text-align: center;
+}
+
+.aboutSection table {
+	margin: var(--spacing-auto); /*CHECK THIS OUT*/
+}
+
+/* Mobile - S(320), M(375px), L(425px)  */
+@media screen and (max-width: 426px) {
+	.aboutMain {
+		flex-direction: column;
+	}
+}

@@ -1,21 +1,21 @@
 // Styles
-// import styles from "./layout.module.css";
+import styles from "./layout.module.css";
+
+// Assets
+import portrait from "../../assets/portrett_portefoelje.JPG";
 
 const HomePage = () => {
 	return (
-		<main>
-			<section>
-				<img
-					src="https://static.scientificamerican.com/sciam/cache/file/32665E6F-8D90-4567-9769D59E11DB7F26_source.jpg?w=590&h=800&7E4B4CAD-CAE1-4726-93D6A160C2B068B2"
-					alt="cat? me? what?"
-				/>
+		<main className={styles.homeMain}>
+			<section className={styles.sectionLeft}>
+				<img src={portrait} alt="Portrett" />
 			</section>
 
-			<section>
+			<section className={styles.sectionRight}>
 				<h1>Julie</h1>
-				<h2>Frontend-utvikler</h2>
+				<h3>Frontend-utvikler</h3>
 				<p>
-					{/* Edit this */}
+					{/* Edit this (taken from github) */}
 					Jeg heter Julie, er 25 år og bor i Bergen. Begynte mitt kode eventyr Juni 2022, og begynte på
 					KodeHode August 2022. Liker å lære nye ting og lærer nye ting fort. Fritiden går til gaming,
 					boklesing og koding.

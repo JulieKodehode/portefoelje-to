@@ -1,10 +1,10 @@
 // Styles
-// import styles from "./layout.module.css";
+import styles from "./layout.module.css";
 
 const AboutPage = () => {
 	return (
-		<main>
-			<section>
+		<main className={styles.aboutMain}>
+			<section className={styles.aboutSection}>
 				<h3>Hei! Mitt navn er Julie</h3>
 				<p>
 					{/* Pitch fra en 21st time */}
@@ -20,7 +20,7 @@ const AboutPage = () => {
 				</p>
 			</section>
 
-			<section>
+			<section className={styles.aboutSection}>
 				<h3>Mine ferdigheter</h3>
 				<table>
 					{/* This gotta change somehow */}
