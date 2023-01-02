@@ -1,8 +1,8 @@
 main {
-	background-color: aquamarine;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 5px solid black;
-	margin: 20px 0;
+
+	/* Border not a permanent thing just for separation for now */
+	border-bottom: 2.5px solid black;
 }
