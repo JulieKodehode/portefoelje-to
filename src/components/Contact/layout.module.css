@@ -1,0 +1,38 @@
+.contactMain {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	/* margin: var(--spacing-xlarge); */
+}
+
+.contactSection {
+	text-align: center;
+	width: 50%;
+}
+
+.contactSection ul {
+	display: inline-flex;
+	text-align: center;
+	gap: 1.25em;
+	padding: 0;
+}
+
+.contactSection ul li {
+	list-style-type: none;
+	/* font-size: var(--fontsize-general); */
+}
+
+.contactIcons {
+	width: 1em;
+	height: 1em;
+	background-color: white;
+}
+
+/* Mobile - S(320), M(375px), L(425px)  */
+@media screen and (max-width: 426px) {
+	/* .contactSection ul {
+		flex-direction: column;
+	} */
+}
