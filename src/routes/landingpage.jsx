@@ -10,7 +10,7 @@ import "./layout.module.css";
 
 // Components
 import AboutPage from "./About/AboutPage";
-import ContactPage from "./Contact/ContactPage";
+// import ContactPage from "./Contact/ContactPage";
 import HomePage from "./Home/HomePage";
 import ProjectPage from "./Projects/ProjectsPage";
 import Footer from "../components/Footer/Footer";
@@ -24,7 +24,7 @@ const LandingPage = () => {
 			<HomePage />
 			<AboutPage />
 			<ProjectPage />
-			<ContactPage />
+			{/* <ContactPage /> */}
 			<Footer />
 		</>
 	);
