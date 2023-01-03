@@ -5,8 +5,8 @@ const ContactPage = () => {
 	return (
 		<section className={styles.contactMain}>
 			<section className={styles.contactSection}>
-				<h4>Kontakt meg her</h4>
-				<p>
+				<h3 className={styles.contactTitle}>Kontakt</h3>
+				<p className={styles.ContactText}>
 					Jeg søker praksiskplass som frontend-utvikler så kontakt meg ved interesse og ta en titt på
 					mitt arbeid frem til nå for et innblikk på mine ferdigheter.
 				</p>

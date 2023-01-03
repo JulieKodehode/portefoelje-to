@@ -4,8 +4,12 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
 	width: 100%;
+
+	border-bottom: 0.5em black solid;
 }
 
 /* Section left - portrait */
@@ -14,8 +18,8 @@
 }
 
 .sectionLeft img {
-	height: 80%; /*Of it's container*/
-	width: 80%; /*Of it's container*/
+	height: 900%; /*Of it's container*/
+	width: 90%; /*Of it's container*/
 	border-radius: 50%; /*U a circle now son*/
 }
 
@@ -24,10 +28,38 @@
 	width: 50%;
 }
 
+/* Typography */
+.titleHeading,
+.titleSHeading {
+	font-family: "Bebas Neue", cursive;
+}
+
+.titleHeading {
+	font-size: var(--fontsize-xxl);
+}
+
+.titleSHeading {
+	margin-top: -20px;
+	font-size: var(--fontsize-l);
+}
+
+/* Responsive */
 /* Mobile - S(320), M(375px), L(425px)  */
 @media screen and (max-width: 426px) {
 	.homeMain {
 		height: auto;
 		flex-direction: column;
+	}
+
+	.sectionRight {
+		width: fit-content;
+	}
+
+	.titleHeading {
+		font-size: var(--fontsize-xl);
+	}
+
+	.titleSHeading {
+		font-size: var(--fontsize-l);
 	}
 }

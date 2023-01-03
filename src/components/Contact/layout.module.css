@@ -4,12 +4,12 @@
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	/* margin: var(--spacing-xlarge); */
 }
 
 .contactSection {
 	text-align: center;
-	width: 50%;
+	/* width: 50%; */
+	width: fit-content;
 }
 
 .contactSection ul {
@@ -17,11 +17,11 @@
 	text-align: center;
 	gap: 1.25em;
 	padding: 0;
+	margin-top: 20px;
 }
 
 .contactSection ul li {
 	list-style-type: none;
-	/* font-size: var(--fontsize-general); */
 }
 
 .contactIcons {
@@ -30,9 +30,14 @@
 	background-color: white;
 }
 
-/* Mobile - S(320), M(375px), L(425px)  */
-@media screen and (max-width: 426px) {
-	/* .contactSection ul {
-		flex-direction: column;
+/* Typography */
+.contactTitle {
+	font-size: var(--fontsize-m);
+}
+
+/* Mobile - S(320), M(375px), L(425px), Tablet(768px) */
+@media screen and (max-width: 768px) {
+	/* .contactSection {
+		width: fit-content;
 	} */
 }

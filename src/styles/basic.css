@@ -3,6 +3,7 @@
 * {
 	box-sizing: border-box;
 	color: var(--primary-color-purple);
+	margin: 0; /*SIS U ANNOYING FO*/
 }
 
 html,
