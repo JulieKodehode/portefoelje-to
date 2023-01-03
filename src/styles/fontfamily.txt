@@ -1,4 +1,5 @@
 GENERAL
+https://fonts.google.com/specimen/Roboto
 To embed a font, copy the code into the <head> of your html
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +14,7 @@ font-family: 'Roboto Slab', serif;
 ////
 
 HEADINGS
+https://fonts.google.com/specimen/Bebas+Neue
 To embed a font, copy the code into the <head> of your html
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
