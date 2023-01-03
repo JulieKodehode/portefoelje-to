@@ -11,8 +11,12 @@ body {
 	background-color: var(--default-bg-color);
 }
 
-main {
-	padding: 0.625em;
+/* To add more space around to not touch corners..? */
+/* Mobile - S(320), M(375px), L(425px)  */
+@media screen and (max-width: 426px) {
+	main {
+		padding: 0.625em;
+	}
 }
 
 /* Not necessary with one page */

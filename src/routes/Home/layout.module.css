@@ -1,10 +1,9 @@
 /* General */
 .homeMain {
+	height: 100vh;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	/* justify-content: space-evenly; Don't think you are needed with the 50/50 split*/
-	/* align-items: center; Same with you sis */
 	text-align: center;
 	width: 100%;
 }
@@ -28,6 +27,7 @@
 /* Mobile - S(320), M(375px), L(425px)  */
 @media screen and (max-width: 426px) {
 	.homeMain {
+		height: auto;
 		flex-direction: column;
 	}
 }

@@ -1,4 +1,5 @@
 .projectMain {
+	height: 100vh; /*Max-width 1440????*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -28,7 +29,16 @@
 
 /* Mobile - S(320), M(375px), L(425px)  */
 @media screen and (max-width: 426px) {
+	.projectMain {
+		height: auto;
+	}
+
 	.projectGrid {
 		grid-template-columns: auto;
+	}
+
+	.projectGrid div {
+		width: 10em;
+		height: 10em;
 	}
 }
