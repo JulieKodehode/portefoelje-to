@@ -5,7 +5,7 @@ const AboutPage = () => {
 	return (
 		<main className={styles.aboutMain}>
 			<section className={styles.aboutSection}>
-				<h3>Hei! Mitt navn er Julie</h3>
+				<h3 className={styles.aboutTitle}>Mitt navn er Julie</h3>
 				<p>
 					{/* Pitch fra en 21st time */}
 					Jeg går på kurs hos Kodehode. Programmering for meg er kreativitet, problemløsning og en evig
@@ -19,8 +19,8 @@ const AboutPage = () => {
 				</p>
 			</section>
 
-			<section className={styles.aboutSection}>
-				<h3>Mine ferdigheter</h3>
+			<section className={styles.aboutSkills}>
+				<h3 className={styles.aboutTitle}>Mine ferdigheter</h3>
 				<table>
 					{/* This gotta change somehow */}
 					<tbody>
@@ -38,11 +38,11 @@ const AboutPage = () => {
 						</tr>
 						<tr>
 							<td>REACT</td>
-							<td>⭐⭐⭐</td>
+							<td>⭐⭐</td>
 						</tr>
 						<tr>
 							<td>FIGMA</td>
-							<td>⭐⭐⭐⭐</td>
+							<td>⭐⭐⭐</td>
 						</tr>
 						<tr>
 							<td>GITHUB</td>

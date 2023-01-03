@@ -5,15 +5,28 @@ Convention:
 Typical <p> size: 16px = 1em
 
 Mine:
-h1 130px = 8.125em
-h2 34px = 2.125em
-h3 28px = 1.75em
-p(and everything not h): 21px = 1.3125em
+fontsize-xs = 12px = 0.75em = (mmh)
+fontsize-s = 18px = 1.125em = general (paragraph)
+fontsize-m = 27px = 1.6875em = h3 (subheadings)
+fontsize-l = 36x = 2.25em = h1 (heading)
+fontsize-xl = 45px = 2.8125em (mmh)
+fontsize-xxl = 90px = 5.625em (TITLE)
 */
 
 :root {
-	--fontsize-h1: 8.125em;
-	--fontsize-h2: 2.125em;
-	--fontsize-h3: 1.75em;
-	--fontsize-general: 1.3125em;
+	--fontsize-xs: 0.75em;
+	--fontsize-s: 1.125em;
+	--fontsize-m: 1.6875em;
+	--fontsize-l: 2.25em;
+	--fontsize-xl: 2.8125em;
+	--fontsize-xxl: 5.625em;
+}
+
+/* Font family */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;700&display=swap");
+
+body {
+	font-family: "Roboto Slab", serif;
+	font-size: var(--fontsize-s);
 }
