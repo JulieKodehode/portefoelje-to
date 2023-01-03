@@ -21,7 +21,7 @@ const ProjectPage = () => {
 				</div>
 
 				{/* Carousel? */}
-				<div>
+				{/* <div>
 					<p>Prosjekt D</p>
 				</div>
 				<div>
@@ -29,7 +29,7 @@ const ProjectPage = () => {
 				</div>
 				<div>
 					<p>Prosjekt F</p>
-				</div>
+				</div> */}
 			</section>
 		</main>
 	);
