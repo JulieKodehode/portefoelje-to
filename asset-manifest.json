@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portefoelje-to/static/css/main.a42ff94a.css",
+    "main.css": "/portefoelje-to/static/css/main.b114deb7.css",
     "main.js": "/portefoelje-to/static/js/main.d3707ed4.js",
     "static/js/787.057dd080.chunk.js": "/portefoelje-to/static/js/787.057dd080.chunk.js",
     "static/media/portrett_portefoelje.JPG": "/portefoelje-to/static/media/portrett_portefoelje.3b4d1abcdfb8c0aab4b9.JPG",
     "index.html": "/portefoelje-to/index.html",
-    "main.a42ff94a.css.map": "/portefoelje-to/static/css/main.a42ff94a.css.map",
+    "main.b114deb7.css.map": "/portefoelje-to/static/css/main.b114deb7.css.map",
     "main.d3707ed4.js.map": "/portefoelje-to/static/js/main.d3707ed4.js.map",
     "787.057dd080.chunk.js.map": "/portefoelje-to/static/js/787.057dd080.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a42ff94a.css",
+    "static/css/main.b114deb7.css",
     "static/js/main.d3707ed4.js"
   ]
 }
