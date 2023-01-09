@@ -1,6 +1,6 @@
 {
-	"name": "portefoelje-to",
-	"homepage": "https://juliekodehode.github.io/portefoelje-to/",
+	"name": "portfolio",
+	"homepage": "https://juliekodehode.github.io/portfolio/",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
