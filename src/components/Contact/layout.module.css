@@ -10,22 +10,30 @@
 
 .contactSection {
 	text-align: center;
-	/* width: 50%; */
+	width: 50%;
 	width: fit-content;
 }
 
-.contactSection ul {
-	display: inline-flex;
-	text-align: center;
-	gap: 1.25em;
-	padding: 0;
-	margin-top: 20px;
-}
-
-.contactSection ul li {
+.iconList {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around; /*Space between the two different type of icons*/
+	padding-top: 1em;
+	padding-left: 0; /*Default spot for style-type*/
 	list-style-type: none;
 }
 
+.socialIcons {
+	display: inline-flex;
+	gap: 1.25em;
+}
+
+.cvIcon p {
+	display: inline-flex;
+	padding-right: 0.5em;
+}
+
+/* ICON SIZES!!!!!!! */
 .contactIcons {
 	width: 1.5em;
 	height: 1.5em;
@@ -36,14 +44,19 @@
 }
 
 /* Typography */
-.contactTitle {
+/* .contactTitle {
 	font-size: var(--fontsize-s);
-	padding-top: 0.5em; /*TEMPORARY*/
-}
+	padding-top: 0.5em;
+} */
 
-/* Mobile - S(320), M(375px), L(425px), Tablet(768px) */
-@media screen and (max-width: 768px) {
-	/* .contactSection {
-		width: fit-content;
-	} */
+/* Mobile - S(320), M(375px), L(425px) */
+@media screen and (max-width: 425px) {
+	.iconList {
+		flex-direction: column;
+		gap: 1em;
+	}
+
+	.socialIcons {
+		justify-content: center;
+	}
 }
