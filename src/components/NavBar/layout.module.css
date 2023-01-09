@@ -23,9 +23,18 @@
 }
 
 .navUl li {
-	color: white;
+	/* color: white; */
 	padding: var(--spacing-medium);
 	display: inline-block;
+}
+
+.navUl a {
+	color: white;
+	text-decoration: none;
+}
+
+.navUl a:where(:hover, :focus, :active) {
+	text-decoration: underline;
 }
 
 /* Mobile - S(320), M(375px), L(425px)  */
