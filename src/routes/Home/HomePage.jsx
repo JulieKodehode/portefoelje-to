@@ -9,7 +9,7 @@ import ContactPage from "../../components/Contact/ContactPage";
 
 const HomePage = () => {
 	return (
-		<main className={styles.homeMain}>
+		<main id="home" className={styles.homeMain}>
 			<section className={styles.sectionLeft}>
 				<img src={portrait} alt="Portrett" />
 			</section>

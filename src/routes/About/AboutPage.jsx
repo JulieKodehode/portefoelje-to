@@ -3,7 +3,7 @@ import styles from "./layout.module.css";
 
 const AboutPage = () => {
 	return (
-		<main className={styles.aboutMain}>
+		<main id="about" className={styles.aboutMain}>
 			<section className={styles.aboutSection}>
 				<h3 className={styles.aboutTitle}>Mitt navn er Julie</h3>
 				<p>
