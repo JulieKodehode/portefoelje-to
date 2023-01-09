@@ -32,7 +32,8 @@
 
 /* Typography */
 .contactTitle {
-	font-size: var(--fontsize-m);
+	font-size: var(--fontsize-s);
+	padding-top: 0.5em; /*TEMPORARY*/
 }
 
 /* Mobile - S(320), M(375px), L(425px), Tablet(768px) */
