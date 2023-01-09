@@ -18,7 +18,7 @@
 }
 
 .sectionLeft img {
-	height: 900%; /*Of it's container*/
+	height: 90%; /*Of it's container*/
 	width: 90%; /*Of it's container*/
 	border-radius: 50%; /*U a circle now son*/
 }
