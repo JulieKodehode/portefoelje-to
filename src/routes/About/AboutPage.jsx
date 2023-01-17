@@ -1,6 +1,9 @@
 // Styles
 import styles from "./layout.module.css";
 
+// Assets
+import Skills from "../../assets/wordcloudExample.png";
+
 const AboutPage = () => {
 	return (
 		<main id="about" className={styles.aboutMain}>
@@ -31,10 +34,7 @@ const AboutPage = () => {
 
 			<section className={styles.aboutSkills}>
 				<h3 className={styles.aboutTitle}>Mine ferdigheter</h3>
-				<img
-					src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX18200943.jpg"
-					alt="tag-cloud-example"
-				/>
+				<img src={Skills} alt="tag-cloud-example" />
 			</section>
 		</main>
 	);
