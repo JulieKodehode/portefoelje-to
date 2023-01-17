@@ -13,19 +13,20 @@
 	text-align: center;
 }
 
+/* Space between the p's */
+.aboutSection p {
+	padding-bottom: 1em;
+}
+
 .aboutSkills {
 	width: 50%;
 	text-align: center;
 	padding-top: 20px;
 }
 
-.aboutSkills table {
-	margin: auto;
-}
-
-/* Typography */
-.aboutTitle {
-	font-size: var(--fontsize-m);
+.aboutSkills img {
+	width: 80%;
+	height: 80%;
 }
 
 /* Mobile - S(320), M(375px), L(425px)  */

@@ -1,5 +1,8 @@
 .navHeader {
-	position: fixed;
+	/* Making header sticky, and placing it at 0 to be at the very top */
+	position: sticky;
+	top: 0;
+
 	width: 100%;
 	height: 50px;
 	background-color: var(--primary-bgcolor-blue);
