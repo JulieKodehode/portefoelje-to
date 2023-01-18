@@ -16,18 +16,27 @@ const ProjectPage = () => {
 
 			<section className={styles.projectGrid}>
 				<div>
-					<p>Prosjekt A</p>
+					<p className={styles.projectName}>Prosjekt A</p>
 					<img src={Countdown} alt="photo of a website" />
+					<p className={styles.photoText}>
+						This project is xyz. <a href="#">page</a> and <a href="#">code</a>
+					</p>
 					{/* https://juliekodehode.github.io/countdown/ */}
 				</div>
 				<div>
-					<p>Prosjekt B</p>
+					<p className={styles.projectName}>Prosjekt B</p>
 					<img src={Skyrim} alt="photo of a website" />
+					<p className={styles.photoText}>
+						This project is xyz. <a href="#">page</a> and <a href="#">code</a>
+					</p>
 					{/* https://juliekodehode.github.io/moduleA_skyrimProject/ */}
 				</div>
 				<div>
-					<p>Prosjekt C</p>
+					<p className={styles.projectName}>Prosjekt C</p>
 					<img src={Parallax} alt="photo of a website" />
+					<p className={styles.photoText}>
+						This project is xyz. <a href="#">page</a> and <a href="#">code</a>
+					</p>
 					{/* https://juliekodehode.github.io/moduleA_parallaxWebpage/ */}
 				</div>
 
