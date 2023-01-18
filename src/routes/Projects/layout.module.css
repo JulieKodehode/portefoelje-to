@@ -68,3 +68,10 @@
 		height: 10em;
 	}
 }
+
+/* Tablet(768px) */
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+	.projectGrid {
+		grid-template-columns: auto auto;
+	}
+}
