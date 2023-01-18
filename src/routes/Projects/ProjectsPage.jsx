@@ -1,6 +1,11 @@
 // Styles
 import styles from "./layout.module.css";
 
+// Assets
+import Countdown from "../../assets/Projects/countdownProjectPhoto.png";
+import Skyrim from "../../assets/Projects/skyrimProjectPhoto.png";
+import Parallax from "../../assets/Projects/parallaxProjectPhoto.png";
+
 const ProjectPage = () => {
 	return (
 		<main id="projects" className={styles.projectMain}>
@@ -12,12 +17,18 @@ const ProjectPage = () => {
 			<section className={styles.projectGrid}>
 				<div>
 					<p>Prosjekt A</p>
+					<img src={Countdown} alt="photo of a website" />
+					{/* https://juliekodehode.github.io/countdown/ */}
 				</div>
 				<div>
 					<p>Prosjekt B</p>
+					<img src={Skyrim} alt="photo of a website" />
+					{/* https://juliekodehode.github.io/moduleA_skyrimProject/ */}
 				</div>
 				<div>
 					<p>Prosjekt C</p>
+					<img src={Parallax} alt="photo of a website" />
+					{/* https://juliekodehode.github.io/moduleA_parallaxWebpage/ */}
 				</div>
 
 				{/* Carousel? */}

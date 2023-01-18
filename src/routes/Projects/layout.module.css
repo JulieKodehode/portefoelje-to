@@ -14,6 +14,18 @@
 	gap: 1em;
 }
 
+.projectGrid p {
+	text-transform: uppercase;
+	color: white;
+}
+
+/* TEMPORARY */
+.projectGrid img {
+	height: 10em;
+	width: 10em;
+	visibility: hidden;
+}
+
 .projectGrid div {
 	width: 15em;
 	height: 15em;
