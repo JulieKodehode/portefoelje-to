@@ -16,6 +16,7 @@
 
 .projectName {
 	text-transform: uppercase;
+	color: white;
 }
 
 /* TEMPORARY */
@@ -29,7 +30,7 @@
 	position: relative;
 	width: 15em;
 	height: 15em;
-	/* background-color: var(--primary-bgcolor-blue); */
+	background-color: var(--primary-bgcolor-blue);
 }
 
 .projectGrid div:hover {
@@ -42,6 +43,14 @@
 .photoText {
 	position: absolute;
 	bottom: 1em;
+	left: 0.5em;
+	right: 0.5em;
+	color: white;
+	font-size: 14px;
+}
+.photoText a {
+	color: white;
+	text-transform: uppercase;
 }
 
 /* Mobile - S(320), M(375px), L(425px)  */
