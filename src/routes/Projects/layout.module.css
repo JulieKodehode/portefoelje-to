@@ -43,6 +43,7 @@
 	color: white;
 	font-size: 14px;
 }
+
 .photoText a {
 	color: white;
 	text-transform: uppercase;
@@ -61,6 +62,15 @@
 	.projectGrid div {
 		width: 10em;
 		height: 10em;
+	}
+
+	.projectGrid img {
+		height: 65%;
+		width: 100%;
+	}
+
+	.photoText {
+		font-size: 12px;
 	}
 }
 
