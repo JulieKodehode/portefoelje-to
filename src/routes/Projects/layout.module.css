@@ -21,13 +21,12 @@
 
 /* TEMPORARY */
 .projectGrid img {
-	height: 10em;
-	width: 10em;
+	height: 80%;
+	width: 100%;
 	visibility: hidden;
 }
 
 .projectGrid div {
-	position: relative;
 	width: 15em;
 	height: 15em;
 	background-color: var(--primary-bgcolor-blue);
@@ -41,10 +40,6 @@
 }
 
 .photoText {
-	position: absolute;
-	bottom: 1em;
-	left: 0.5em;
-	right: 0.5em;
 	color: white;
 	font-size: 14px;
 }
