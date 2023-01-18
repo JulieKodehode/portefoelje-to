@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9d1ffc62.css",
-    "main.js": "/portfolio/static/js/main.699bfd0b.js",
+    "main.css": "/portfolio/static/css/main.a30e0a25.css",
+    "main.js": "/portfolio/static/js/main.55762215.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/parallaxProjectPhoto.png": "/portfolio/static/media/parallaxProjectPhoto.bc95b89771dd26bc40da.png",
     "static/media/portrett_portefoelje.JPG": "/portfolio/static/media/portrett_portefoelje.3b4d1abcdfb8c0aab4b9.JPG",
-    "static/media/wordcloudExample.png": "/portfolio/static/media/wordcloudExample.59bdcddc4c2cfa545970.png",
+    "static/media/countdownProjectPhoto.png": "/portfolio/static/media/countdownProjectPhoto.99b48b5017972e6656f5.png",
+    "static/media/wordcloudExample5.png": "/portfolio/static/media/wordcloudExample5.dfe8b178910947c3cb05.png",
+    "static/media/skyrimProjectPhoto.png": "/portfolio/static/media/skyrimProjectPhoto.100fe4d8c8349d485286.png",
     "index.html": "/portfolio/index.html",
-    "main.9d1ffc62.css.map": "/portfolio/static/css/main.9d1ffc62.css.map",
-    "main.699bfd0b.js.map": "/portfolio/static/js/main.699bfd0b.js.map",
+    "main.a30e0a25.css.map": "/portfolio/static/css/main.a30e0a25.css.map",
+    "main.55762215.js.map": "/portfolio/static/js/main.55762215.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d1ffc62.css",
-    "static/js/main.699bfd0b.js"
+    "static/css/main.a30e0a25.css",
+    "static/js/main.55762215.js"
   ]
 }
