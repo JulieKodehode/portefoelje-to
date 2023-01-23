@@ -1,11 +1,9 @@
 .projectMain {
-	height: 100vh; /*Max-width 1440????*/
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	/* font-size: var(--fontsize-general); */
-	/* margin: var(--spacing-xlarge); */
 }
 
 .projectGrid {
@@ -17,19 +15,20 @@
 .projectName {
 	text-transform: uppercase;
 	color: white;
+	padding-bottom: 0.5em;
 }
 
 /* TEMPORARY */
 .projectGrid img {
-	height: 10em;
-	width: 10em;
-	visibility: hidden;
+	height: 80%;
+	width: 80%;
+	/* visibility: hidden; */
 }
 
 .projectGrid div {
-	position: relative;
-	width: 15em;
-	height: 15em;
+	/* position: relative; */
+	width: 20em;
+	height: 20em;
 	background-color: var(--primary-bgcolor-blue);
 }
 
@@ -41,16 +40,23 @@
 }
 
 .photoText {
-	position: absolute;
-	bottom: 1em;
-	left: 0.5em;
-	right: 0.5em;
-	color: white;
+	/* position: absolute; */
+	/* bottom: 1em; */
+	/* left: 0.5em; */
+	/* right: 0.5em; */
 	font-size: 14px;
-}
-.photoText a {
 	color: white;
+}
+
+.photoText a {
 	text-transform: uppercase;
+	padding-inline: 1em;
+	color: white;
+	text-decoration: none;
+}
+
+.photoText a:where(:hover, :active, :focus) {
+	text-decoration: underline;
 }
 
 /* Mobile - S(320), M(375px), L(425px)  */

@@ -2,6 +2,8 @@
 import styles from "./layout.module.css";
 
 // Assets
+import Countdown from "../../assets/Projects/nedtellingTilJul.png";
+import AdviceGeneratorApp from "../../assets/Projects/adviceGeneratorApp.png";
 
 const ProjectPage = () => {
 	return (
@@ -13,40 +15,43 @@ const ProjectPage = () => {
 
 			<section className={styles.projectGrid}>
 				<div>
-					<p className={styles.projectName}>Prosjekt A</p>
-					{/* <img src={} alt="" /> */}
-					<p className={styles.photoText}>
-						This project is xyz. <a href="#">page</a> and <a href="#">code</a>
-					</p>
-					{/* https://juliekodehode.github.io/countdown/ */}
+					<p className={styles.projectName}>Nedtelling til jul</p>
+					<img src={Countdown} alt="a webpage counting down to christmas" />
+					<section className={styles.photoText}>
+						<a href="https://juliekodehode.github.io/countdown/" target="_blank" rel="noreferrer">
+							page
+						</a>
+						<a href="https://github.com/JulieKodehode/countdown" target="_blank" rel="noreferrer">
+							code
+						</a>
+					</section>
 				</div>
 				<div>
-					<p className={styles.projectName}>Prosjekt B</p>
-					{/* <img src={} alt="" /> */}
-					<p className={styles.photoText}>
-						This project is xyz. <a href="#">page</a> and <a href="#">code</a>
-					</p>
-					{/* https://juliekodehode.github.io/moduleA_skyrimProject/ */}
+					<p className={styles.projectName}>Advice generator</p>
+					<img src={AdviceGeneratorApp} alt="a webpage generating advices" />
+					<section className={styles.photoText}>
+						<a
+							href="https://juliekodehode.github.io/advicegeneratorapp/"
+							target="_blank"
+							rel="noreferrer">
+							page
+						</a>
+						<a
+							href="https://github.com/JulieKodehode/advicegeneratorapp"
+							target="_blank"
+							rel="noreferrer">
+							code
+						</a>
+					</section>
 				</div>
 				<div>
 					<p className={styles.projectName}>Prosjekt C</p>
 					{/* <img src={} alt="" /> */}
-					<p className={styles.photoText}>
-						This project is xyz. <a href="#">page</a> and <a href="#">code</a>
-					</p>
-					{/* https://juliekodehode.github.io/moduleA_parallaxWebpage/ */}
+					<section className={styles.photoText}>
+						<a href="#home">page</a>
+						<a href="#home">code</a>
+					</section>
 				</div>
-
-				{/* Carousel? */}
-				{/* <div>
-					<p>Prosjekt D</p>
-				</div>
-				<div>
-					<p>Prosjekt E</p>
-				</div>
-				<div>
-					<p>Prosjekt F</p>
-				</div> */}
 			</section>
 		</main>
 	);
