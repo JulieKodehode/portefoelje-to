@@ -54,7 +54,7 @@ const ContactPage = () => {
 					<div className={styles.cvIcon}>
 						<li>
 							<p>Last ned CV</p>
-							<a href="#">
+							<a href="#home">
 								<img
 									className={styles.contactIcons}
 									src="https://cdn-icons-png.flaticon.com/512/942/942799.png"
