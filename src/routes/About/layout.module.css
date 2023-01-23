@@ -21,7 +21,6 @@
 .aboutSkills {
 	width: 50%;
 	text-align: center;
-	padding-top: 20px;
 }
 
 .aboutSkills img {
@@ -38,5 +37,9 @@
 
 	.aboutSection {
 		width: fit-content;
+	}
+
+	.aboutSkills {
+		width: 100%;
 	}
 }

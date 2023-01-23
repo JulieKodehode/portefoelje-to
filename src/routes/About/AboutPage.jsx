@@ -8,7 +8,7 @@ const AboutPage = () => {
 	return (
 		<main id="about" className={styles.aboutMain}>
 			<section className={styles.aboutSection}>
-				<h3 className={styles.aboutTitle}>Mitt navn er Julie</h3>
+				<h3 className={styles.aboutTitle}>Velkommen!</h3>
 				{/* Introduction me */}
 				<p>
 					Jeg heter Julie, er 25 år og bor i Bergen. Begynte mitt kode eventyr Juni 2022, og begynte på

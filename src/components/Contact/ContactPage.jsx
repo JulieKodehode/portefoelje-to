@@ -7,7 +7,7 @@ const ContactPage = () => {
 			<section className={styles.contactSection}>
 				{/* <p className={styles.contactTitle}>Kontakt</p> */}
 				<p>
-					Jeg søker praksiskplass som frontend-utvikler så kontakt meg ved interesse og ta en titt på
+					Jeg søker praksiskplass som frontend-utvikler så kontakt meg ved interesse, og ta en titt på
 					mitt arbeid frem til nå for et innblikk på mine ferdigheter.
 				</p>
 
