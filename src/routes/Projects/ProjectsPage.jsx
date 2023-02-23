@@ -12,46 +12,59 @@ const ProjectPage = () => {
 				<h3>Mine prosjekter</h3>
 				<p>Et lite kollektiv av mine prosjekter fra de siste 6 månedene på KodeHode</p>
 			</section>
-
+			{/* Project 1 */}
 			<section className={styles.projectGrid}>
-				<div>
-					<p className={styles.projectName}>Nedtelling til jul</p>
+				<div className={styles.gridDiv}>
+					<h5 className={styles.projectName}>Nedtelling til jul</h5>
 					<img src={Countdown} alt="a webpage counting down to christmas" />
-					<section className={styles.photoText}>
-						<a href="https://juliekodehode.github.io/countdown/" target="_blank" rel="noreferrer">
-							page
-						</a>
-						<a href="https://github.com/JulieKodehode/countdown" target="_blank" rel="noreferrer">
-							code
-						</a>
-					</section>
+					<p>
+						En simpel nettside som viser nedtelling til jul, og har en lokal lagring for å skrive en
+						hilsen
+					</p>
+					<a
+						className={styles.linkStyle}
+						href="https://juliekodehode.github.io/countdown/"
+						target="_blank"
+						rel="noreferrer">
+						nettside
+					</a>
+					<a
+						className={styles.linkStyle}
+						href="https://github.com/JulieKodehode/countdown"
+						target="_blank"
+						rel="noreferrer">
+						kode
+					</a>
 				</div>
-				<div>
-					<p className={styles.projectName}>Advice generator</p>
+				{/* Project 2 */}
+				<div className={styles.gridDiv}>
+					<h5 className={styles.projectName}>Advice generator</h5>
 					<img src={AdviceGeneratorApp} alt="a webpage generating advices" />
-					<section className={styles.photoText}>
-						<a
-							href="https://juliekodehode.github.io/advicegeneratorapp/"
-							target="_blank"
-							rel="noreferrer">
-							page
-						</a>
-						<a
-							href="https://github.com/JulieKodehode/advicegeneratorapp"
-							target="_blank"
-							rel="noreferrer">
-							code
-						</a>
-					</section>
+					<p>En simpel nettside som genererer råd og visdomsord ved trykk på en knapp</p>
+					<a
+						className={styles.linkStyle}
+						href="https://juliekodehode.github.io/advicegeneratorapp/"
+						target="_blank"
+						rel="noreferrer">
+						nettside
+					</a>
+					<a
+						className={styles.linkStyle}
+						href="https://github.com/JulieKodehode/advicegeneratorapp"
+						target="_blank"
+						rel="noreferrer">
+						kode
+					</a>
 				</div>
-				<div>
+				{/* Project 3 */}
+				{/* <div className={styles.gridDiv}>
 					<p className={styles.projectName}>Prosjekt C</p>
-					{/* <img src={} alt="" /> */}
+					<img src={} alt="" />
 					<section className={styles.photoText}>
-						<a href="#home">page</a>
-						<a href="#home">code</a>
+						<a href="#home">nettside</a>
+						<a href="#home">kode</a>
 					</section>
-				</div>
+				</div> */}
 			</section>
 		</main>
 	);

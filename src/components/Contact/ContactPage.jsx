@@ -6,10 +6,10 @@ const ContactPage = () => {
 		<section className={styles.contactMain}>
 			<section className={styles.contactSection}>
 				{/* <p className={styles.contactTitle}>Kontakt</p> */}
-				<p>
+				{/* <p>
 					Jeg søker praksiskplass som frontend-utvikler så kontakt meg ved interesse, og ta en titt på
 					mitt arbeid frem til nå for et innblikk på mine ferdigheter.
-				</p>
+				</p> */}
 
 				<ul className={styles.iconList}>
 					<div className={styles.socialIcons}>
@@ -51,7 +51,7 @@ const ContactPage = () => {
 						</li>
 					</div>
 
-					<div className={styles.cvIcon}>
+					{/* <div className={styles.cvIcon}>
 						<li>
 							<p>Last ned CV</p>
 							<a href="#home">
@@ -62,7 +62,7 @@ const ContactPage = () => {
 								/>
 							</a>
 						</li>
-					</div>
+					</div> */}
 				</ul>
 			</section>
 		</section>

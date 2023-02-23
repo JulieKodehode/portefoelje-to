@@ -16,7 +16,7 @@ const HomePage = () => {
 
 			<section className={styles.sectionRight}>
 				<h1 className={styles.titleHeading}>Julie Hauge</h1>
-				<h3 className={styles.titleSHeading}>Frontend-utvikler</h3>
+				<h3 className={styles.titleSHeading}>Fullstack-utvikler</h3>
 				<ContactPage />
 			</section>
 		</main>
