@@ -19,6 +19,7 @@
 
 .projectName {
 	text-transform: uppercase;
+	padding-top: 1em;
 }
 
 /* TEMPORARY */
@@ -30,7 +31,7 @@
 .linkStyle {
 	text-decoration: none;
 	text-transform: uppercase;
-	padding-inline: 0.5em;
+	padding: 0.5em;
 }
 
 .linkStyle:hover {
@@ -64,7 +65,7 @@
 }
 
 /* Tablet(768px) */
-@media screen and (min-width: 426px) and (max-width: 1023px) {
+/* @media screen and (min-width: 426px) and (max-width: 1023px) {
 	.projectGrid {
 		grid-template-columns: auto auto;
 	}
