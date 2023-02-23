@@ -2,9 +2,8 @@
 import styles from "./layout.module.css";
 
 // Assets
-import Countdown from "../../assets/Projects/countdownProjectPhoto.png";
-import Skyrim from "../../assets/Projects/skyrimProjectPhoto.png";
-import Parallax from "../../assets/Projects/parallaxProjectPhoto.png";
+import Countdown from "../../assets/Projects/nedtellingTilJul.png";
+import AdviceGeneratorApp from "../../assets/Projects/adviceGeneratorApp.png";
 
 const ProjectPage = () => {
 	return (
@@ -13,42 +12,58 @@ const ProjectPage = () => {
 				<h3>Mine prosjekter</h3>
 				<p>Et lite kollektiv av mine prosjekter fra de siste 6 månedene på KodeHode</p>
 			</section>
-
+			{/* Project 1 */}
 			<section className={styles.projectGrid}>
-				<div>
-					<p className={styles.projectName}>Prosjekt A</p>
-					<img src={Countdown} alt="photo of a website" />
-					<p className={styles.photoText}>
-						This project is xyz. <a href="#">page</a> and <a href="#">code</a>
+				<div className={styles.gridDiv}>
+					<h5 className={styles.projectName}>Nedtelling til jul</h5>
+					<img src={Countdown} alt="a webpage counting down to christmas" />
+					<p>
+						En simpel nettside som viser nedtelling til jul, og har en lokal lagring for å skrive en
+						hilsen
 					</p>
-					{/* https://juliekodehode.github.io/countdown/ */}
+					<a
+						className={styles.linkStyle}
+						href="https://juliekodehode.github.io/countdown/"
+						target="_blank"
+						rel="noreferrer">
+						nettside
+					</a>
+					<a
+						className={styles.linkStyle}
+						href="https://github.com/JulieKodehode/countdown"
+						target="_blank"
+						rel="noreferrer">
+						kode
+					</a>
 				</div>
-				<div>
-					<p className={styles.projectName}>Prosjekt B</p>
-					<img src={Skyrim} alt="photo of a website" />
-					<p className={styles.photoText}>
-						This project is xyz. <a href="#">page</a> and <a href="#">code</a>
-					</p>
-					{/* https://juliekodehode.github.io/moduleA_skyrimProject/ */}
+				{/* Project 2 */}
+				<div className={styles.gridDiv}>
+					<h5 className={styles.projectName}>Advice generator</h5>
+					<img src={AdviceGeneratorApp} alt="a webpage generating advices" />
+					<p>En simpel nettside som genererer råd og visdomsord ved trykk på en knapp</p>
+					<a
+						className={styles.linkStyle}
+						href="https://juliekodehode.github.io/advicegeneratorapp/"
+						target="_blank"
+						rel="noreferrer">
+						nettside
+					</a>
+					<a
+						className={styles.linkStyle}
+						href="https://github.com/JulieKodehode/advicegeneratorapp"
+						target="_blank"
+						rel="noreferrer">
+						kode
+					</a>
 				</div>
-				<div>
+				{/* Project 3 */}
+				{/* <div className={styles.gridDiv}>
 					<p className={styles.projectName}>Prosjekt C</p>
-					<img src={Parallax} alt="photo of a website" />
-					<p className={styles.photoText}>
-						This project is xyz. <a href="#">page</a> and <a href="#">code</a>
-					</p>
-					{/* https://juliekodehode.github.io/moduleA_parallaxWebpage/ */}
-				</div>
-
-				{/* Carousel? */}
-				{/* <div>
-					<p>Prosjekt D</p>
-				</div>
-				<div>
-					<p>Prosjekt E</p>
-				</div>
-				<div>
-					<p>Prosjekt F</p>
+					<img src={} alt="" />
+					<section className={styles.photoText}>
+						<a href="#home">nettside</a>
+						<a href="#home">kode</a>
+					</section>
 				</div> */}
 			</section>
 		</main>
