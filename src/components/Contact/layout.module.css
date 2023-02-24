@@ -35,12 +35,13 @@
 
 /* ICON SIZES!!!!!!! */
 .contactIcons {
-	width: 1.5em;
-	height: 1.5em;
+	width: 2.5em;
+	height: 2.5em;
 }
 
 .contactIcons:where(:hover, :active, :focus) {
-	border-bottom: 0.2em var(--primary-bgcolor-blue) solid;
+	border: 0.2em var(--primary-bgcolor-blue) solid;
+	padding: 1px;
 }
 
 /* Typography */

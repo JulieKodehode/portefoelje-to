@@ -2,7 +2,7 @@
 import styles from "./layout.module.css";
 
 // Assets
-import Skills from "../../assets/About/wordcloudExample5.png";
+import Skills from "../../assets/About/wordcloud3.png";
 
 const AboutPage = () => {
 	return (
@@ -29,7 +29,7 @@ const AboutPage = () => {
 
 			<section className={styles.aboutSkills}>
 				{/* <h3 className={styles.aboutTitle}>Mine ferdigheter</h3> */}
-				<img src={Skills} alt="tag-cloud-example" />
+				<img src={Skills} alt="tag-cloud" />
 			</section>
 		</main>
 	);
