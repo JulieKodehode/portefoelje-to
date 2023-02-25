@@ -2,12 +2,16 @@
 // import { NavLink } from "react-router-dom";
 
 // Styles
+import LightDarkMode from "../LightDarkMode/LightDarkMode";
 import styles from "./layout.module.css";
 
 const NavBar = () => {
 	return (
 		<header className={styles.navHeader}>
-			<h1>JH</h1>
+			<section className={styles.headerBar}>
+				<h1>JH</h1>
+				<LightDarkMode />
+			</section>
 			<nav>
 				<ul className={styles.navUl}>
 					<li>

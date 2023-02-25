@@ -15,11 +15,14 @@
 
 /* Replace with real logo at some point */
 .navHeader h1 {
-	font-size: 23px; /*FITTING 50px height navHeader*/
+	width: 45px;
+	height: 45px;
+	font-size: 19px;
 	border: 3px solid white;
 	border-radius: 50%;
 	/* padding: var(--spacing-small); */
 	padding: 5px;
+	text-align: center;
 	color: var(--secondary-color-blue);
 }
 
@@ -42,6 +45,13 @@
 
 .navUl a:where(:hover, :focus, :active) {
 	text-decoration: underline;
+}
+
+/* HeaderBar */
+.headerBar {
+	display: flex;
+	flex-direction: row;
+	gap: 1em;
 }
 
 /* Mobile - S(320), M(375px), L(425px)  */
