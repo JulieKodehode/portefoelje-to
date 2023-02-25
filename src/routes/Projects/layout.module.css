@@ -19,7 +19,7 @@
 
 .projectName {
 	text-transform: uppercase;
-	padding-top: 1em;
+	padding-block: 1em;
 }
 
 /* TEMPORARY */
@@ -73,4 +73,4 @@
 	.projectGrid {
 		grid-template-columns: auto auto;
 	}
-}
+} */
