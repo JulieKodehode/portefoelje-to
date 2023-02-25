@@ -25,6 +25,10 @@
 .projectGrid img {
 	height: 300px;
 	width: 300px;
+
+	/* Background vibes */
+	border-radius: 50%;
+	box-shadow: 1px 1px 10px #333;
 }
 
 /* .projectGrid div is gone */
