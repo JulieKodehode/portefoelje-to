@@ -31,8 +31,6 @@
 	box-shadow: 1px 1px 10px #333;
 }
 
-/* .projectGrid div is gone */
-
 .linkStyle {
 	text-decoration: none;
 	text-transform: uppercase;
@@ -58,10 +56,19 @@
 		height: 250px;
 		width: 250px;
 	}
+
+	.projectGrid img {
+		height: 65%;
+		width: 100%;
+	}
+
+	.photoText {
+		font-size: 12px;
+	}
 }
 
 /* Tablet(768px) */
-/* @media screen and (min-width: 426px) and (max-width: 1024px) {
+@media screen and (min-width: 426px) and (max-width: 1023px) {
 	.projectGrid {
 		grid-template-columns: auto auto;
 	}
