@@ -15,7 +15,7 @@ const ProjectPage = () => {
 			{/* Project 1 */}
 			<section className={styles.projectGrid}>
 				<div className={styles.gridDiv}>
-					<h5 className={styles.projectName}>Nedtelling til jul</h5>
+					<h4 className={styles.projectName}>Nedtelling til jul</h4>
 					<img src={Countdown} alt="a webpage counting down to christmas" />
 					<p>
 						En simpel nettside som viser nedtelling til jul, og har en lokal lagring for å skrive en
@@ -38,7 +38,7 @@ const ProjectPage = () => {
 				</div>
 				{/* Project 2 */}
 				<div className={styles.gridDiv}>
-					<h5 className={styles.projectName}>Advice generator</h5>
+					<h4 className={styles.projectName}>Advice generator</h4>
 					<img src={AdviceGeneratorApp} alt="a webpage generating advices" />
 					<p>En simpel nettside som genererer råd og visdomsord ved trykk på en knapp</p>
 					<a
@@ -58,7 +58,7 @@ const ProjectPage = () => {
 				</div>
 				{/* Project 3 */}
 				{/* <div className={styles.gridDiv}>
-					<p className={styles.projectName}>Prosjekt C</p>
+					<h4 className={styles.projectName}>Prosjekt C</h4>
 					<img src={} alt="" />
 					<section className={styles.photoText}>
 						<a href="#home">nettside</a>
