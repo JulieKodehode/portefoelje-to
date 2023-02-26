@@ -6,6 +6,7 @@ import portrait from "../../assets/portrett_portefoelje.JPG";
 
 // Components
 import ContactPage from "../../components/Contact/ContactPage";
+import TitleName from "../../components/NameAnimation/NameAnimation";
 
 const HomePage = () => {
 	return (
@@ -15,7 +16,7 @@ const HomePage = () => {
 			</section>
 
 			<section className={styles.sectionRight}>
-				<h1 className={styles.titleHeading}>Julie Hauge</h1>
+				<TitleName />
 				<h3 className={styles.titleSHeading}>Junior Fullstack-utvikler</h3>
 				<ContactPage />
 			</section>

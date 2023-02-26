@@ -29,16 +29,10 @@
 }
 
 /* Typography */
-.titleHeading,
+/* TitleHeading is moved to components/NameAnimation */
+
 .titleSHeading {
 	font-family: "Bebas Neue", cursive;
-}
-
-.titleHeading {
-	font-size: var(--fontsize-xxl);
-}
-
-.titleSHeading {
 	margin-top: -20px;
 	font-size: var(--fontsize-l);
 	color: var(--primary-bgcolor-blue); /*Yes or no?*/
