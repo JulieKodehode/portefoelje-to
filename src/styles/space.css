@@ -1,30 +1,19 @@
-/* Spaces aka padding and margin */
+/* Spaces with padding and margin */
 
-/* Add padding and margin here for dynamic spacing throughout project 
+/*
 Conventions:
+auto = auto
+0px = 0em
 5px = 0.312
 10px = 0.625em
 20px = 1.25
-
 28px = 1.75em
-
-Mine:
-padding: 10px; 
-padding: 10px 20px;
-padding: 5px; (td's)
-padding: 0;
-margin: 10px 0 0 0; (pointless wtf!! ul)
-margin: 0; (typos home);
-margin-bottoms: 0; (project)
-margin-top: 0; (project)
-margin-bottom: 28px (something with h3????)
 */
 
 :root {
 	--spacing-none: 0em;
+	--spacing-half: 0.5em;
+	--spacing-one: 1em;
+	--spacing-two: 2em;
 	--spacing-auto: auto;
-	--spacing-small: 0.3125em;
-	--spacing-medium: 0.625em;
-	--spacing-large: 1.25em;
-	--spacing-xlarge: 1.75em;
 }

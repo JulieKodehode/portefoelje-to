@@ -8,34 +8,36 @@
 
 .projectGrid {
 	display: grid;
-	grid-template-columns: auto auto;
-	gap: 2em;
+	grid-template-columns: auto auto auto;
 }
 
-.gridDiv {
+.projectCard {
 	height: auto;
 	width: 300px;
+	border: 1px solid var(--color-black);
+	padding: var(--spacing-half);
+	margin: var(--spacing-half);
 }
 
 .projectName {
 	text-transform: uppercase;
-	padding-block: 1em;
+	/* padding-block: 1em; */
 }
 
 /* TEMPORARY */
 .projectGrid img {
-	height: 300px;
-	width: 300px;
+	height: 250px;
+	width: 250px;
 
 	/* Background vibes */
 	border-radius: 50%;
-	box-shadow: 1px 1px 10px #333;
+	box-shadow: 1px 1px 10px var(--color-black);
 }
 
 .linkStyle {
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 0.5em;
+	padding: var(--spacing-half);
 }
 
 .linkStyle:hover {
@@ -52,19 +54,13 @@
 		grid-template-columns: auto;
 	}
 
-	/* TEMPORARY */
-	.projectGrid img {
-		height: 250px;
+	.projectCard {
 		width: 250px;
 	}
 
 	.projectGrid img {
-		height: 65%;
-		width: 100%;
-	}
-
-	.photoText {
-		font-size: 12px;
+		height: 200px;
+		width: 200px;
 	}
 }
 

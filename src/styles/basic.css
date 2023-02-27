@@ -2,18 +2,18 @@
 
 * {
 	box-sizing: border-box;
-	color: var(--primary-color-purple);
-	margin: 0; /*SIS U ANNOYING FO*/
+	color: var(--color-black);
+	/* margin: 0; SIS U ANNOYING FO */
 }
 
 html,
 body {
 	margin: 0;
-	background-color: var(--default-bg-color);
+	background-color: var(--default-bgColor);
 }
 
 main {
-	padding: 0.625em;
+	padding: var(--spacing-one);
 }
 
 /* Not necessary with one page */
