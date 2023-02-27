@@ -9,7 +9,7 @@
 	text-align: center;
 	width: 100%;
 
-	border-bottom: 0.5em var(--primary-bgcolor-blue) solid;
+	/* border-bottom: 0.5em var(--primary-bgcolor-blue) solid; */
 }
 
 /* Section left - portrait */
