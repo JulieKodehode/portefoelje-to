@@ -44,12 +44,6 @@
 	padding: 1px;
 }
 
-/* Typography */
-/* .contactTitle {
-	font-size: var(--fontsize-s);
-	padding-top: 0.5em;
-} */
-
 /* Mobile - S(320), M(375px), L(425px) */
 @media screen and (max-width: 425px) {
 	.iconList {
@@ -59,5 +53,10 @@
 
 	.socialIcons {
 		justify-content: center;
+	}
+
+	.contactIcons {
+		width: 1em;
+		height: 1em;
 	}
 }

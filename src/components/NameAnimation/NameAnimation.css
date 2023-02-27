@@ -3,18 +3,18 @@
 	background-color: transparent;
 	text-align: center;
 	cursor: pointer;
-	font: var(--fontsize-xxl);
+	font: var(--fontsize-Heading);
 	padding: var(--spacing-none);
 }
 
 .titleHeading {
-	font-size: var(--fontsize-xxl);
+	font-size: var(--fontsize-Heading);
 	font-family: "Bebas Neue", cursive;
 	margin: var(--spacing-none);
 }
 
 .titleAnimation {
-	font-size: var(--fontsize-xxl);
+	font-size: var(--fontsize-Heading);
 	font-family: "Bebas Neue", cursive;
 	margin: var(--spacing-none);
 	/* Animation */
@@ -41,6 +41,6 @@
 @media screen and (max-width: 426px) {
 	.titleAnimation,
 	.titleHeading {
-		font-size: var(--fontsize-xl);
+		font-size: var(--fontsize-SHeading);
 	}
 }

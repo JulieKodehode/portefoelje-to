@@ -34,7 +34,6 @@
 .titleSHeading {
 	font-family: "Bebas Neue", cursive;
 	margin: var(--spacing-none);
-	font-size: var(--fontsize-l);
 	color: var(--primary-color); /*Yes or no?*/
 }
 
@@ -48,13 +47,5 @@
 
 	.sectionRight {
 		width: fit-content;
-	}
-
-	.titleHeading {
-		font-size: var(--fontsize-xl);
-	}
-
-	.titleSHeading {
-		font-size: var(--fontsize-l);
 	}
 }
