@@ -1,14 +1,12 @@
 .footer {
 	height: 50px;
-	background-color: var(--primary-bgcolor-blue);
+	background-color: var(--primary-color);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.footerH3 {
-	color: white;
-	/* color: var(--secondary-color-blue); */
-	/* font-size: var(--fontsize-general); */
+.credits {
+	color: var(--color-white);
 	margin: var(--spacing-none);
 }

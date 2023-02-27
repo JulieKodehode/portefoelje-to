@@ -7,14 +7,9 @@ Edit: change purple soft black(?)
 */
 
 :root {
-	--default-bg-color: #f3f3f3;
+	--default-bgColor: #fdfdfd;
+	--primary-color: #1f2260;
 
-	--primary-bgcolor-blue: #1f2260;
-	--primary-bgcolor-purple: #432b2b;
-
-	--primary-color-blue: #000;
-	--primary-color-purple: #1e1e1e;
-
-	--secondary-color-blue: #fff;
-	--secondary-color-purple: #f3f3f3;
+	--color-black: #000;
+	--color-white: #fff;
 }
