@@ -6,9 +6,7 @@
 	align-items: center;
 }
 
-.footerH3 {
+.credits {
 	color: var(--color-white);
-	/* color: var(--color-white); */
-	/* font-size: var(--fontsize-general); */
 	margin: var(--spacing-none);
 }
