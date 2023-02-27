@@ -5,7 +5,7 @@
 
 	width: 100%;
 	height: 50px;
-	background-color: var(--primary-bgcolor-blue);
+	background-color: var(--primary-color);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -16,11 +16,11 @@
 /* Replace with real logo at some point */
 .navHeader h1 {
 	font-size: 23px; /*FITTING 50px height navHeader*/
-	border: 3px solid white;
+	border: 3px solid var(--color-white);
 	border-radius: 50%;
 	/* padding: var(--spacing-small); */
 	padding: 5px;
-	color: var(--secondary-color-blue);
+	color: var(--color-white);
 }
 
 /* Nav items */

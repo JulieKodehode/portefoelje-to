@@ -2,14 +2,14 @@
 
 * {
 	box-sizing: border-box;
-	color: var(--primary-color-purple);
+	color: var(--color-black);
 	margin: 0; /*SIS U ANNOYING FO*/
 }
 
 html,
 body {
 	margin: 0;
-	background-color: var(--default-bg-color);
+	background-color: var(--default-bgColor);
 }
 
 main {

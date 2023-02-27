@@ -40,7 +40,7 @@
 }
 
 .contactIcons:where(:hover, :active, :focus) {
-	border: 0.2em var(--primary-bgcolor-blue) solid;
+	border: 0.2em var(--primary-color) solid;
 	padding: 1px;
 }
 
