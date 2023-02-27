@@ -9,14 +9,14 @@ import Pokedex from "../../assets/Projects/pokedex.png";
 const ProjectPage = () => {
 	return (
 		<main id="projects" className={styles.projectMain}>
-			{/* <section>
+			<section>
 				<h3>Mine prosjekter</h3>
 				<p>Et lite kollektiv av mine prosjekter fra de siste 6 månedene på KodeHode</p>
-			</section> */}
+			</section>
 			<section className={styles.projectGrid}>
 				{/* Project 1 */}
 				<div className={styles.projectCard}>
-					<h4 className={styles.projectName}>Nedtelling til jul</h4>
+					<p className={styles.projectName}>Nedtelling til jul</p>
 					<img src={Countdown} alt="a webpage counting down to christmas" />
 					{/* <p>
 						En simpel nettside som viser nedtelling til jul, og har en lokal lagring for å skrive en
@@ -40,7 +40,7 @@ const ProjectPage = () => {
 
 				{/* Project 2 */}
 				<div className={styles.projectCard}>
-					<h4 className={styles.projectName}>Advice generator</h4>
+					<p className={styles.projectName}>Advice generator</p>
 					<img src={AdviceGeneratorApp} alt="a webpage generating advices" />
 					{/* <p>En simpel nettside som genererer råd og visdomsord ved trykk på en knapp</p> */}
 					<a
@@ -61,7 +61,7 @@ const ProjectPage = () => {
 
 				{/* Project 3 */}
 				{/* <div className={styles.projectCard}>
-					<h4 className={styles.projectName}>Pokedex</h4>
+					<p className={styles.projectName}>Pokedex</p>
 					<img src={Pokedex} alt="a webpage showing pokemons" />
 					<a
 						className={styles.linkStyle}
