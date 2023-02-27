@@ -2,7 +2,6 @@
 	/* Making header sticky, and placing it at 0 to be at the very top */
 	position: sticky;
 	top: 0;
-
 	width: 100%;
 	height: 50px;
 	background-color: var(--primary-color);
@@ -10,7 +9,6 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding: var(--spacing-medium) var(--spacing-large);
 }
 
 /* Replace with real logo at some point */
@@ -18,20 +16,21 @@
 	font-size: 23px; /*FITTING 50px height navHeader*/
 	border: 3px solid var(--color-white);
 	border-radius: 50%;
-	/* padding: var(--spacing-small); */
 	padding: 5px;
+	margin: var(--spacing-none);
 	color: var(--color-white);
 }
 
 /* Nav items */
 .navUl {
+	margin: var(--spacing-none);
 	list-style-type: none;
-	/* padding: var(--spacing-none); */
+	padding: var(--spacing-none);
 }
 
 .navUl li {
 	/* color: white; */
-	padding: var(--spacing-medium);
+	padding-inline: var(--spacing-one);
 	display: inline-block;
 }
 
@@ -47,7 +46,7 @@
 /* Mobile - S(320), M(375px), L(425px)  */
 @media screen and (max-width: 426px) {
 	.navUl li {
-		padding: 0.5em;
+		padding: var(--spacing-half);
 		font-size: 12px;
 	}
 }

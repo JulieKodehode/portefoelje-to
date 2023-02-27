@@ -15,8 +15,8 @@
 	height: auto;
 	width: 300px;
 	border: 1px solid var(--color-black);
-	padding: 0.5em;
-	margin: 0.5em;
+	padding: var(--spacing-half);
+	margin: var(--spacing-half);
 }
 
 .projectName {
@@ -37,7 +37,7 @@
 .linkStyle {
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 0.5em;
+	padding: var(--spacing-half);
 }
 
 .linkStyle:hover {

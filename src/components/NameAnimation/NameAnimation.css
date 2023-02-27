@@ -4,16 +4,19 @@
 	text-align: center;
 	cursor: pointer;
 	font: var(--fontsize-xxl);
+	padding: var(--spacing-none);
 }
 
 .titleHeading {
 	font-size: var(--fontsize-xxl);
 	font-family: "Bebas Neue", cursive;
+	margin: var(--spacing-none);
 }
 
 .titleAnimation {
 	font-size: var(--fontsize-xxl);
 	font-family: "Bebas Neue", cursive;
+	margin: var(--spacing-none);
 	/* Animation */
 	background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
 	background-size: auto auto;

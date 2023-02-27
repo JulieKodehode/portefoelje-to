@@ -14,9 +14,9 @@
 }
 
 /* Space between the p's */
-.aboutSection p {
-	padding-bottom: 1em;
-}
+/* .aboutSection p {
+	padding-bottom: var(--spacing-one);
+} */
 
 .aboutSkills {
 	width: 50%;

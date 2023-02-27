@@ -5,7 +5,7 @@
 	align-items: center;
 	width: 100%;
 
-	padding-top: 1em;
+	/* padding-top: var(--spacing-one); */
 }
 
 .contactSection {
@@ -18,8 +18,8 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around; /*Space between the two different type of icons*/
-	padding-top: 1em;
-	padding-left: 0; /*Default spot for style-type*/
+	/* padding-top: 1em; */
+	padding-left: var(--spacing-none); /*Default spot for style-type*/
 	list-style-type: none;
 }
 
@@ -30,7 +30,7 @@
 
 .cvIcon p {
 	display: inline-flex;
-	padding-right: 0.5em;
+	padding-right: var(--spacing-half);
 }
 
 /* ICON SIZES!!!!!!! */
@@ -40,7 +40,7 @@
 }
 
 .contactIcons:where(:hover, :active, :focus) {
-	border: 0.2em var(--primary-color) solid;
+	border: 3px var(--primary-color) solid;
 	padding: 1px;
 }
 

@@ -33,7 +33,7 @@
 
 .titleSHeading {
 	font-family: "Bebas Neue", cursive;
-	margin-top: -20px;
+	margin: var(--spacing-none);
 	font-size: var(--fontsize-l);
 	color: var(--primary-color); /*Yes or no?*/
 }

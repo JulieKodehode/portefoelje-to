@@ -3,7 +3,7 @@
 * {
 	box-sizing: border-box;
 	color: var(--color-black);
-	margin: 0; /*SIS U ANNOYING FO*/
+	/* margin: 0; SIS U ANNOYING FO */
 }
 
 html,
@@ -13,7 +13,7 @@ body {
 }
 
 main {
-	padding: 0.625em;
+	padding: var(--spacing-one);
 }
 
 /* Not necessary with one page */
