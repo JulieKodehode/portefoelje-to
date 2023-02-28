@@ -18,9 +18,9 @@
 }
 
 .sectionLeft img {
-	height: 80%; /*Of it's container*/
-	width: 80%; /*Of it's container*/
-	border-radius: 50%; /*U a circle now son*/
+	height: 80%;
+	width: 80%;
+	border-radius: 50%;
 }
 
 /* Section right - name, description */

@@ -3,7 +3,6 @@
 * {
 	box-sizing: border-box;
 	color: var(--color-black);
-	/* margin: 0; SIS U ANNOYING FO */
 }
 
 html,
@@ -15,15 +14,3 @@ body {
 main {
 	padding: var(--spacing-one);
 }
-
-/* Not necessary with one page */
-/* #root {
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-}
-
-#root > main {
-	flex-grow: 1;
-	padding: 0.625em;
-} */

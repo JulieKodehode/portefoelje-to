@@ -17,9 +17,9 @@
 .iconList {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around; /*Space between the two different type of icons*/
+	justify-content: space-around;
 	/* padding-top: 1em; */
-	padding-left: var(--spacing-none); /*Default spot for style-type*/
+	padding-left: var(--spacing-none);
 	list-style-type: none;
 }
 
@@ -33,7 +33,7 @@
 	padding-right: var(--spacing-half);
 }
 
-/* ICON SIZES!!!!!!! */
+/* Icon sizes */
 .contactIcons {
 	width: 2.5em;
 	height: 2.5em;
