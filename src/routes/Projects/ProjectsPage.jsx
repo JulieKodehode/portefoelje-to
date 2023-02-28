@@ -4,7 +4,6 @@ import styles from "./layout.module.css";
 // Assets
 import Countdown from "../../assets/Projects/nedtellingTilJul.png";
 import AdviceGeneratorApp from "../../assets/Projects/adviceGeneratorApp.png";
-import Pokedex from "../../assets/Projects/pokedex.png";
 
 const ProjectPage = () => {
 	return (
@@ -61,8 +60,8 @@ const ProjectPage = () => {
 
 				{/* Project 3 */}
 				{/* <div className={styles.projectCard}>
-					<p className={styles.projectName}>Pokedex</p>
-					<img src={Pokedex} alt="a webpage showing pokemons" />
+					<p className={styles.projectName}></p>
+					<img src={} alt="" />
 					<a
 						className={styles.linkStyle}
 						href=""
