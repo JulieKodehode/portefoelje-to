@@ -9,7 +9,7 @@
 	text-align: center;
 	width: 100%;
 
-	border-bottom: 0.5em var(--primary-color) solid;
+	/* border-bottom: 0.5em var(--primary-color) solid; */
 }
 
 /* Section left - portrait */
@@ -18,9 +18,9 @@
 }
 
 .sectionLeft img {
-	height: 80%; /*Of it's container*/
-	width: 80%; /*Of it's container*/
-	border-radius: 50%; /*U a circle now son*/
+	height: 80%;
+	width: 80%;
+	border-radius: 50%;
 }
 
 /* Section right - name, description */

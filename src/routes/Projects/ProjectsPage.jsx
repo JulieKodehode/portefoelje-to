@@ -4,14 +4,13 @@ import styles from "./layout.module.css";
 // Assets
 import Countdown from "../../assets/Projects/nedtellingTilJul.png";
 import AdviceGeneratorApp from "../../assets/Projects/adviceGeneratorApp.png";
-import Pokedex from "../../assets/Projects/pokedex.png";
 
 const ProjectPage = () => {
 	return (
 		<main id="projects" className={styles.projectMain}>
 			<section>
 				<h3>Mine prosjekter</h3>
-				<p>Et lite kollektiv av mine prosjekter fra de siste 6 månedene på KodeHode</p>
+				<p>En liten samling av mine prosjekter fra de siste seks månedene på KodeHode</p>
 			</section>
 			<section className={styles.projectGrid}>
 				{/* Project 1 */}
@@ -61,8 +60,8 @@ const ProjectPage = () => {
 
 				{/* Project 3 */}
 				{/* <div className={styles.projectCard}>
-					<p className={styles.projectName}>Pokedex</p>
-					<img src={Pokedex} alt="a webpage showing pokemons" />
+					<p className={styles.projectName}></p>
+					<img src={} alt="" />
 					<a
 						className={styles.linkStyle}
 						href=""
