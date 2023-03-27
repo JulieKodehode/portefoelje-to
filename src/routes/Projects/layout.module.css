@@ -6,17 +6,40 @@
 	text-align: center;
 }
 
+.projectTitle {
+	color: var(--primaryColor-seagreen);
+}
+
 .projectGrid {
 	display: grid;
 	grid-template-columns: auto auto auto;
 }
 
-.projectCard {
+.projectCardAlgae {
 	height: auto;
 	width: 300px;
-	border: 1px solid var(--color-black);
+	/* border: 1px solid var(--color-black); */
 	padding: var(--spacing-half);
 	margin: var(--spacing-half);
+	background-color: var(--secondaryColor-algaegreen);
+}
+
+.projectCardYellow {
+	height: auto;
+	width: 300px;
+	/* border: 1px solid var(--color-black); */
+	padding: var(--spacing-half);
+	margin: var(--spacing-half);
+	background-color: var(--secondaryColor-meadowyellow);
+}
+
+.projectCardOrange {
+	height: auto;
+	width: 300px;
+	/* border: 1px solid var(--color-black); */
+	padding: var(--spacing-half);
+	margin: var(--spacing-half);
+	background-color: var(--secondaryColor-meadoworange);
 }
 
 .projectName {

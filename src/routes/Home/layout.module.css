@@ -9,7 +9,7 @@
 	text-align: center;
 	width: 100%;
 
-	/* border-bottom: 0.5em var(--primary-color) solid; */
+	/* border-bottom: 0.5em var(--primaryColor-seagreen) solid; */
 }
 
 /* Section left - portrait */
@@ -34,7 +34,7 @@
 .titleSHeading {
 	font-family: "Bebas Neue", cursive;
 	margin: var(--spacing-none);
-	color: var(--primary-color); /*Yes or no?*/
+	color: var(--primaryColor-seagreen); /*Yes or no?*/
 }
 
 /* Responsive */

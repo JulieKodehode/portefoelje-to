@@ -8,7 +8,7 @@
 html,
 body {
 	margin: 0;
-	background-color: var(--default-bgColor);
+	background-color: var(--color-white);
 }
 
 main {

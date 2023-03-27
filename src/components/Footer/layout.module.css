@@ -1,6 +1,6 @@
 .footer {
 	height: 50px;
-	background-color: var(--primary-color);
+	background-color: var(--primaryColor-seagreen);
 	display: flex;
 	justify-content: center;
 	align-items: center;

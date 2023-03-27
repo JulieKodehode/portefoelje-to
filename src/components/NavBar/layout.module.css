@@ -4,7 +4,7 @@
 	top: 0;
 	width: 100%;
 	height: 50px;
-	background-color: var(--primary-color);
+	background-color: var(--primaryColor-seagreen);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;

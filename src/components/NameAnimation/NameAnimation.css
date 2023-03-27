@@ -18,15 +18,14 @@
 	font-family: "Bebas Neue", cursive;
 	margin: var(--spacing-none);
 	/* Animation */
-	background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
-	background-size: auto auto;
-	background-clip: border-box;
-	background-size: 200% auto;
-	color: #fff;
+	background: linear-gradient(-225deg, #264653 0%, #2a9d8f 29%, #e9c46a 67%, #f4a261 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: colorName 3s linear infinite;
+	/* background-size: auto auto;
+	background-clip: border-box; */
+	background-size: 200% auto;
+	animation: colorName 4s linear infinite;
 	display: inline-block;
 }
 

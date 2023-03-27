@@ -3,8 +3,11 @@ Color schemes
 */
 
 :root {
-	--default-bgColor: #fdfdfd;
-	--primary-color: #1f2260;
+	/* --primaryColor-seagreen: #1f2260; */
+	--primaryColor-seagreen: #264653;
+	--secondaryColor-algaegreen: #2a9d8f;
+	--secondaryColor-meadowyellow: #e9c46a;
+	--secondaryColor-meadoworange: #f4a261;
 
 	--color-black: #1d1d1d;
 	--color-white: #fdfdfd;
