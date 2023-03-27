@@ -60,7 +60,7 @@ const ProjectPage = () => {
 				<div className={styles.projectCardOrange}>
 					<p className={styles.projectName}>Stats Preview Card</p>
 					<img src={StatsPreviewCard} alt="" />
-					<p>Description</p>
+					{/* <p>Description</p> */}
 					<a
 						className={styles.linkStyle}
 						href="https://juliekodehode.github.io/statspreviewcard/"
