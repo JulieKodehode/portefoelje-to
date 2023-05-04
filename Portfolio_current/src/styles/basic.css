@@ -1,0 +1,16 @@
+/* Basic over all css */
+
+* {
+	box-sizing: border-box;
+	color: var(--color-black);
+}
+
+html,
+body {
+	margin: 0;
+	background-color: var(--color-white);
+}
+
+main {
+	padding: var(--spacing-one);
+}

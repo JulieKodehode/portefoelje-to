@@ -1,0 +1,45 @@
+.suspiciousDot {
+	border: none;
+	background-color: transparent;
+	text-align: center;
+	cursor: pointer;
+	font: var(--fontsize-Heading);
+	padding: var(--spacing-none);
+}
+
+.titleHeading {
+	font-size: var(--fontsize-Heading);
+	font-family: "Bebas Neue", cursive;
+	margin: var(--spacing-none);
+}
+
+.titleAnimation {
+	font-size: var(--fontsize-Heading);
+	font-family: "Bebas Neue", cursive;
+	margin: var(--spacing-none);
+	/* Animation */
+	background: linear-gradient(-225deg, #264653 0%, #2a9d8f 29%, #e9c46a 67%, #f4a261 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/* background-size: auto auto;
+	background-clip: border-box; */
+	background-size: 200% auto;
+	animation: colorName 4s linear infinite;
+	display: inline-block;
+}
+
+@keyframes colorName {
+	to {
+		background-position: 200% center;
+	}
+}
+
+/* Responsive */
+/* Mobile - S(320), M(375px), L(425px)  */
+@media screen and (max-width: 426px) {
+	.titleAnimation,
+	.titleHeading {
+		font-size: var(--fontsize-SHeading);
+	}
+}

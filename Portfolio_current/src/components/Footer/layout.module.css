@@ -1,0 +1,12 @@
+.footer {
+	height: 50px;
+	background-color: var(--primaryColor-seagreen);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.credits {
+	color: var(--color-white);
+	margin: var(--spacing-none);
+}
