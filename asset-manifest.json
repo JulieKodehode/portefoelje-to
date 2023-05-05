@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e9d56f64.css",
-    "main.js": "/portfolio/static/js/main.97d7d4c9.js",
+    "main.css": "/portfolio/static/css/main.ad35838a.css",
+    "main.js": "/portfolio/static/js/main.3eac1962.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/portrett_portefoelje.JPG": "/portfolio/static/media/portrett_portefoelje.3b4d1abcdfb8c0aab4b9.JPG",
+    "static/media/StatsPreviewCard.png": "/portfolio/static/media/StatsPreviewCard.4a3616b54ee3c22aa566.png",
     "static/media/nedtellingTilJul.png": "/portfolio/static/media/nedtellingTilJul.b93a49bfe2c646987b93.png",
-    "static/media/wordcloud3.png": "/portfolio/static/media/wordcloud3.6355c035adf1dbc429ac.png",
+    "static/media/wordcloud-light-multi.png": "/portfolio/static/media/wordcloud-light-multi.2fe70b41077a8401d1e0.png",
     "static/media/adviceGeneratorApp.png": "/portfolio/static/media/adviceGeneratorApp.bc061c8e4feddd7b3d17.png",
     "index.html": "/portfolio/index.html",
-    "main.e9d56f64.css.map": "/portfolio/static/css/main.e9d56f64.css.map",
-    "main.97d7d4c9.js.map": "/portfolio/static/js/main.97d7d4c9.js.map",
+    "main.ad35838a.css.map": "/portfolio/static/css/main.ad35838a.css.map",
+    "main.3eac1962.js.map": "/portfolio/static/js/main.3eac1962.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9d56f64.css",
-    "static/js/main.97d7d4c9.js"
+    "static/css/main.ad35838a.css",
+    "static/js/main.3eac1962.js"
   ]
 }
