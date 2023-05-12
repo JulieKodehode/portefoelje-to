@@ -15,14 +15,14 @@
 }
 
 .projectGrid {
-	display: grid;
-	grid-template-columns: auto auto auto;
+	display: flex;
+   justify-content: center;
+	flex-wrap: wrap;
 }
 
 .projectCardAlgae {
 	height: auto;
 	width: 300px;
-	/* border: 1px solid var(--color-black); */
 	padding: var(--spacing-half);
 	margin: var(--spacing-half);
 	background-color: var(--secondaryColor-algaegreen);
@@ -31,7 +31,6 @@
 .projectCardYellow {
 	height: auto;
 	width: 300px;
-	/* border: 1px solid var(--color-black); */
 	padding: var(--spacing-half);
 	margin: var(--spacing-half);
 	background-color: var(--secondaryColor-meadowyellow);
@@ -40,7 +39,6 @@
 .projectCardOrange {
 	height: auto;
 	width: 300px;
-	/* border: 1px solid var(--color-black); */
 	padding: var(--spacing-half);
 	margin: var(--spacing-half);
 	background-color: var(--secondaryColor-meadoworange);
@@ -48,7 +46,6 @@
 
 .projectName {
 	text-transform: uppercase;
-	/* padding-block: 1em; */
 }
 
 /* TEMPORARY */
@@ -77,9 +74,9 @@
 		height: auto;
 	}
 
-	.projectGrid {
+	/* .projectGrid {
 		grid-template-columns: auto;
-	}
+	} */
 
 	.projectCard {
 		width: 250px;
@@ -92,8 +89,8 @@
 }
 
 /* Tablet(768px) */
-@media screen and (min-width: 426px) and (max-width: 1023px) {
+/* @media screen and (min-width: 426px) and (max-width: 1023px) {
 	.projectGrid {
 		grid-template-columns: auto auto;
 	}
-}
+} */
