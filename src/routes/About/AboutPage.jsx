@@ -1,14 +1,14 @@
 // Styles
-import styles from "./layout.module.css";
+import "./styles.css"
 
 // Assets
 import WordCloudMulti from "../../assets/About/wordcloud-light-multi.png";
 
 const AboutPage = () => {
 	return (
-		<main id="about" className={styles.aboutMain}>
-			<section className={styles.aboutSection}>
-				<h3 className={styles.aboutTitle}>Velkommen!</h3>
+		<main id="about" className="aboutMain">
+			<section className="aboutSection">
+				<h3 className="aboutTitle">Velkommen!</h3>
 				{/* Introduction me */}
 				<p>
 					Mitt navn er Julie, er 25 år og bor i Bergen. Jeg begynte mitt kode eventyr Mai 2022, og
@@ -27,7 +27,7 @@ const AboutPage = () => {
 				<p></p>
 			</section>
 
-			<section className={styles.aboutSkills}>
+			<section className="aboutSkills">
 				{/* <h3 className={styles.aboutTitle}>Mine ferdigheter</h3> */}
 				<img src={WordCloudMulti} alt="word cloud displaying my skills" />
 			</section>
