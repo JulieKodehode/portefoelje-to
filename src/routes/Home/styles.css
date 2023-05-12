@@ -1,15 +1,16 @@
 /* General */
 .homeMain {
-	height: 100vh;
+	min-height: 100vh;
+   width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	width: 100%;
 
-	/* border-bottom: 0.5em var(--primaryColor-seagreen) solid; */
+   /* DEBUG */
+   border: 5px solid red;
 }
 
 /* Section left - portrait */
@@ -29,19 +30,16 @@
 }
 
 /* Typography */
-/* TitleHeading is moved to components/NameAnimation */
-
-.titleSHeading {
+.titleSubHeading {
 	font-family: "Bebas Neue", cursive;
 	margin: var(--spacing-none);
-	color: var(--primaryColor-seagreen); /*Yes or no?*/
+	color: var(--primaryColor-seagreen);
 }
 
 /* Responsive */
 /* Mobile - S(320), M(375px), L(425px)  */
 @media screen and (max-width: 426px) {
 	.homeMain {
-		height: auto;
 		flex-direction: column;
 	}
 

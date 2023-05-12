@@ -1,5 +1,5 @@
 // Styles
-import styles from "./layout.module.css";
+import "./styles.css"
 
 // Assets
 import portrait from "../../assets/portrett_portefoelje.JPG";
@@ -10,14 +10,14 @@ import TitleName from "../../components/NameAnimation/NameAnimation";
 
 const HomePage = () => {
 	return (
-		<main id="home" className={styles.homeMain}>
-			<section className={styles.sectionLeft}>
-				<img src={portrait} alt="Portrett" />
+		<main id="home" className="homeMain">
+			<section className="sectionLeft">
+				<img src={portrait} alt="Portrett av meg." />
 			</section>
 
-			<section className={styles.sectionRight}>
+			<section className="sectionRight">
 				<TitleName />
-				<h3 className={styles.titleSHeading}>Junior Fullstack-utvikler</h3>
+				<h3 className="titleSubHeading">Junior Fullstack-utvikler</h3>
 				<ContactPage />
 			</section>
 		</main>
