@@ -1,13 +1,10 @@
-// Libraries
-// import { NavLink } from "react-router-dom";
-
 // Styles
 import styles from "./layout.module.css";
 
 const NavBar = () => {
 	return (
 		<header className={styles.navHeader}>
-			<h1>JH</h1>
+			<h1 className={styles.logo}>JH</h1>
 			<nav>
 				<ul className={styles.navUl}>
 					<li>
