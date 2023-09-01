@@ -9,9 +9,10 @@ import "../styles/space.css";
 // Components
 import AboutPage from "./About/AboutPage";
 import HomePage from "./Home/HomePage";
-import ProjectPage from "./Projects/ProjectsPage";
+// import ProjectPage from "./Projects/ProjectsPage";
 import Footer from "../components/Footer/Footer";
 import NavBar from "../components/NavBar/NavBar";
+import UnderConstruction from "../components/UnderConstruction/UnderConstruction";
 
 const LandingPage = () => {
 	return (
@@ -19,7 +20,8 @@ const LandingPage = () => {
 			<NavBar />
 			<HomePage />
 			<AboutPage />
-			<ProjectPage />
+			{/* <ProjectPage /> */}
+			<UnderConstruction />
 			<Footer />
 		</>
 	);

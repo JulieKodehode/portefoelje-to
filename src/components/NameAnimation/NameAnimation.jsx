@@ -3,7 +3,7 @@ import React from "react";
 import { useState } from "react";
 
 // Styles
-import "../NameAnimation/NameAnimation.css";
+import "./styles.css";
 
 const TitleName = () => {
 	const [isChange, setIsChange] = useState(true);

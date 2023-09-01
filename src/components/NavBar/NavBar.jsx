@@ -1,12 +1,12 @@
 // Styles
-import styles from "./layout.module.css";
+import "./styles.css";
 
 const NavBar = () => {
 	return (
-		<header className={styles.navHeader}>
-			<h1 className={styles.logo}>JH</h1>
+		<header className="navHeader">
+			<h1 className="logo">JH</h1>
 			<nav>
-				<ul className={styles.navUl}>
+				<ul className="navUl">
 					<li>
 						<a href="#home">Hjem</a>
 					</li>
