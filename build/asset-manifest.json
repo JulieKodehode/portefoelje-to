@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.10637855.css",
+    "main.js": "/portfolio/static/js/main.a56f20d1.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/portrett_portefoelje.JPG": "/portfolio/static/media/portrett_portefoelje.3b4d1abcdfb8c0aab4b9.JPG",
+    "static/media/wordcloud-light-multi.png": "/portfolio/static/media/wordcloud-light-multi.2fe70b41077a8401d1e0.png",
+    "index.html": "/portfolio/index.html",
+    "main.10637855.css.map": "/portfolio/static/css/main.10637855.css.map",
+    "main.a56f20d1.js.map": "/portfolio/static/js/main.a56f20d1.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10637855.css",
+    "static/js/main.a56f20d1.js"
+  ]
+}
