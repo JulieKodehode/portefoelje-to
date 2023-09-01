@@ -1,13 +1,13 @@
 .aboutMain {
 	min-height: 100vh;
-   min-height: 100svh;
+	min-height: 100svh;
 	display: flex;
 	width: 100%;
 	justify-content: space-evenly;
 	align-items: center;
 
-   /* DEBUG */
-	border: 5px solid red;
+	/* DEBUG */
+	/* border: 5px solid red; */
 }
 
 .aboutSection {

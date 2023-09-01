@@ -1,8 +1,8 @@
 /* General */
 .homeMain {
 	min-height: 100vh;
-   min-height: 100svh;
-   width: 100%;
+	min-height: 100svh;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -10,8 +10,8 @@
 	align-items: center;
 	text-align: center;
 
-   /* DEBUG */
-   border: 5px solid red;
+	/* DEBUG */
+	/* border: 5px solid red; */
 }
 
 /* Section left - portrait */
