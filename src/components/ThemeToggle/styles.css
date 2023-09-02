@@ -1,0 +1,21 @@
+.lightMode {
+	background-color: var(--color-white);
+	color: var(--color-black);
+}
+
+.darkMode {
+	background-color: var(--color-black);
+	color: var(--color-white);
+}
+
+.asideThemeToggle {
+	position: absolute;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.toggleButton {
+	background-color: inherit;
+	border: none;
+}
