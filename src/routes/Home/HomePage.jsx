@@ -19,7 +19,7 @@ const HomePage = () => {
 				<h3 className="titleSubHeading">
 					Junior Fullstack-utvikler <span class="linebreak">&</span> Faglig veileder i webutvikling
 				</h3>
-				<ContactPage />
+				{/* <ContactPage /> */}
 			</section>
 			<section>
 				<div>

@@ -1,8 +1,9 @@
 // Styles
-import "./styles.css"
+import "./styles.css";
 
 // Assets
 import WordCloudMulti from "../../assets/About/wordcloud-light-multi.png";
+import ContactPage from "../../components/Contact/ContactPage";
 
 const AboutPage = () => {
 	return (
@@ -25,6 +26,8 @@ const AboutPage = () => {
 
 				{/* Deeper in personal */}
 				<p></p>
+
+				<ContactPage />
 			</section>
 
 			<section className="aboutSkills">
