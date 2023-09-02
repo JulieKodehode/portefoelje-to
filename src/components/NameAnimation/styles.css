@@ -1,6 +1,7 @@
 .suspiciousDot {
 	border: none;
 	background-color: transparent;
+	color: var(--primaryColor-seagreen);
 	text-align: center;
 	cursor: pointer;
 	font: var(--fontsize-Heading);
