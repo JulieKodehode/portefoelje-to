@@ -3,6 +3,7 @@
 * {
 	box-sizing: border-box;
 	color: var(--color-black);
+	scroll-behavior: smooth;
 }
 
 html,
