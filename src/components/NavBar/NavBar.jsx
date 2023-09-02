@@ -3,7 +3,7 @@ import "./styles.css";
 
 const NavBar = () => {
 	return (
-		<header className="navHeader">
+		<header id="navigation" className="navHeader">
 			<h1 className="logo">JH</h1>
 			<nav>
 				<ul className="navUl">

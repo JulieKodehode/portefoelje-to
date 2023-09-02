@@ -17,8 +17,8 @@ import UnderConstruction from "../components/UnderConstruction/UnderConstruction
 const LandingPage = () => {
 	return (
 		<>
-			<NavBar />
 			<HomePage />
+			<NavBar />
 			<AboutPage />
 			{/* <ProjectPage /> */}
 			<UnderConstruction />

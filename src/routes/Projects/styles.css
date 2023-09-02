@@ -1,4 +1,7 @@
 .projectMain {
+	/*For navbaren*/
+	margin-top: -80px;
+
 	min-height: 100vh;
 	min-height: 100svh;
 	display: flex;
@@ -7,7 +10,7 @@
 	text-align: center;
 
 	/* DEBUG */
-   /* border: 5px solid red; */
+	/* border: 5px solid red; */
 }
 
 .projectTitle {
@@ -70,9 +73,9 @@
 
 /* Mobile - S(320), M(375px), L(425px)  */
 @media screen and (max-width: 426px) {
-	.projectMain {
+	/* .projectMain {
 		height: auto;
-	}
+	} */
 
 	/* .projectGrid {
 		grid-template-columns: auto;

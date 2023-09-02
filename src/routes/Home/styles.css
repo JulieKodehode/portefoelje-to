@@ -5,13 +5,13 @@
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 
 	/* DEBUG */
-   /* border: 5px solid red; */
+	/* border: 5px solid red; */
 }
 
 /* Section left - portrait */
@@ -20,9 +20,10 @@
 }
 
 .sectionLeft img {
-	height: 80%;
-	width: 80%;
-	border-radius: 50%;
+	height: 60%;
+	width: 60%;
+	border-top-left-radius: 40%;
+	border-bottom-right-radius: 40%;
 }
 
 /* Section right - name, description */
@@ -35,6 +36,10 @@
 	font-family: "Bebas Neue", cursive;
 	margin: var(--spacing-none);
 	color: var(--primaryColor-seagreen);
+}
+
+.linebreak {
+	display: block;
 }
 
 /* Responsive */
