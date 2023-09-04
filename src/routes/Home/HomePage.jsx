@@ -5,7 +5,7 @@ import "./styles.css";
 import portrait from "../../assets/new_portrait.jpg";
 
 // Components
-import ContactPage from "../../components/Contact/ContactPage";
+// import ContactPage from "../../components/Contact/ContactPage";
 import TitleName from "../../components/NameAnimation/NameAnimation";
 
 const HomePage = () => {
