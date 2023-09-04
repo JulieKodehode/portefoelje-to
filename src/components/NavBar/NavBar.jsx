@@ -1,10 +1,13 @@
 // Styles
+import ThemeToggle from "../ThemeToggle/ThemeToggle";
 import "./styles.css";
 
 const NavBar = () => {
 	return (
 		<header id="navigation" className="navHeader">
-			<h1 className="logo">JH</h1>
+			<a href="#home" class="anchorOff">
+				<h1 className="logo">JH</h1>
+			</a>
 			<nav>
 				<ul className="navUl">
 					<li>
@@ -18,6 +21,7 @@ const NavBar = () => {
 					</li>
 				</ul>
 			</nav>
+			<ThemeToggle />
 		</header>
 	);
 };

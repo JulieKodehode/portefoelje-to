@@ -9,7 +9,7 @@
 }
 
 .asideThemeToggle {
-	position: absolute;
+	/* position: absolute; */
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;

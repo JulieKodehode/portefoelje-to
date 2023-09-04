@@ -13,12 +13,12 @@ import HomePage from "./Home/HomePage";
 import Footer from "../components/Footer/Footer";
 import NavBar from "../components/NavBar/NavBar";
 import UnderConstruction from "../components/UnderConstruction/UnderConstruction";
-import ThemeToggle from "../components/ThemeToggle/ThemeToggle";
+// import ThemeToggle from "../components/ThemeToggle/ThemeToggle";
 
 const LandingPage = () => {
 	return (
 		<>
-			<ThemeToggle />
+			{/* <ThemeToggle /> */}
 			<HomePage />
 			<NavBar />
 			<AboutPage />

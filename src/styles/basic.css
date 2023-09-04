@@ -13,3 +13,10 @@ body {
 main {
 	padding: var(--spacing-one);
 }
+
+.anchorOff,
+.anchorOff:where(:active, :focus, :hover) {
+	text-decoration: none;
+	color: var(--secondaryColor-meadowOrange);
+	cursor: pointer;
+}

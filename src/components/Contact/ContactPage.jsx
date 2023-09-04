@@ -14,7 +14,7 @@ const ContactPage = () => {
 				<ul className="iconList">
 					<div className="socialIcons">
 						<li>
-							<a href="https://github.com/JulieKodehode">
+							<a className="anchorOff" href="https://github.com/JulieKodehode">
 								<svg
 									className="contactIcons"
 									stroke="#f4a261"
@@ -30,7 +30,7 @@ const ContactPage = () => {
 							</a>
 						</li>
 						<li>
-							<a href="https://mail.google.com/">
+							<a className="anchorOff" href="https://mail.google.com/">
 								<svg
 									className="contactIcons"
 									stroke="#f4a261"
@@ -47,7 +47,7 @@ const ContactPage = () => {
 							</a>
 						</li>
 						<li>
-							<a href="https://discord.com/users/Julie.kodehode#4768">
+							<a className="anchorOff" href="https://discord.com/users/Julie.kodehode#4768">
 								<svg
 									className="contactIcons"
 									stroke="#f4a261"
@@ -60,7 +60,7 @@ const ContactPage = () => {
 							</a>
 						</li>
 						<li>
-							<a href="https://www.instagram.com/julieisobelle/">
+							<a className="anchorOff" href="https://www.instagram.com/julieisobelle/">
 								<svg
 									className="contactIcons"
 									stroke="#f4a261"
