@@ -17,8 +17,8 @@ const ContactPage = () => {
 							<a href="https://github.com/JulieKodehode">
 								<svg
 									className="contactIcons"
-									stroke="#264653"
-									fill="#264653"
+									stroke="#f4a261"
+									fill="#f4a261"
 									stroke-width="0"
 									viewBox="0 0 24 24"
 									xmlns="http://www.w3.org/2000/svg">
@@ -33,7 +33,7 @@ const ContactPage = () => {
 							<a href="https://mail.google.com/">
 								<svg
 									className="contactIcons"
-									stroke="#264653"
+									stroke="#f4a261"
 									fill="none"
 									stroke-width="2"
 									viewBox="0 0 24 24"
@@ -50,8 +50,8 @@ const ContactPage = () => {
 							<a href="https://discord.com/users/Julie.kodehode#4768">
 								<svg
 									className="contactIcons"
-									stroke="#264653"
-									fill="#264653"
+									stroke="#f4a261"
+									fill="#f4a261"
 									stroke-width="0"
 									viewBox="0 0 16 16"
 									xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@ const ContactPage = () => {
 							<a href="https://www.instagram.com/julieisobelle/">
 								<svg
 									className="contactIcons"
-									stroke="#264653"
+									stroke="#f4a261"
 									fill="none"
 									stroke-width="2"
 									viewBox="0 0 24 24"

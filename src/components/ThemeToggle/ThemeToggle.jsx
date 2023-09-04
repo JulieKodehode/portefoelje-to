@@ -26,8 +26,8 @@ const ThemeToggle = () => {
 		<div className="asideThemeToggle">
 			<button className="toggleButton" onClick={toggleTheme}>
 				<svg
-					stroke="#264653"
-					fill="#264653"
+					stroke="#f4a261"
+					fill="#f4a261"
 					stroke-width="0"
 					viewBox="0 0 16 16"
 					height="3em"
