@@ -25,8 +25,8 @@ const HomePage = () => {
 				<div>
 					<a href="#navigation">
 						<svg
-							stroke="currentColor"
-							fill="currentColor"
+							stroke="#f4a261"
+							fill="#f4a261	"
 							stroke-width="0"
 							viewBox="0 0 1024 1024"
 							height="2em"
